@@ -1,0 +1,18 @@
+{
+    "name": "wordpress/wr",
+    "description": "wordpress-react plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Wordpress\\Wr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DevRabbit",
+            "email": "williamsmoisha@gmail.com"
+        }
+    ],
+    "require": {}
+}

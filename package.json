@@ -1,0 +1,28 @@
+{
+  "name": "wr",
+  "version": "1.0.0",
+  "description": "wordpress-react plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "keywords": [
+    "wordpress",
+    "react",
+    "tailwind"
+  ],
+  "author": "DevRabbit",
+  "license": "ISC",
+  "devDependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@wordpress/scripts": "^26.4.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "react-icons": "^4.8.0"
+  }
+}
